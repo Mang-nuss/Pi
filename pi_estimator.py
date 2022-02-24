@@ -6,8 +6,8 @@ the 'monte carlo' pi estimator uses a coordinate (x,y) to roughly calculate the 
 A circle of radius=1 is placed within a square sized 2x2. (Hence, the area of the circle
 equals pi, and the area of the square equals 4.) 2 random numbers are
 picked; one for x,y, respectively. The point x,y is placed inside the circle if the hypothenuse
-is less than or equal to 1, that is, if x^2 + y^2 <= 1. The ratio r between the insides and the
-totals times 4, is an estimation of pi.
+is less than or equal to 1, that is, if the square root of (x^2 + y^2) is less than or equal to 1. 
+The ratio r between the insides and the totals times 4, is an estimation of pi.
 """
 
 from random import uniform
